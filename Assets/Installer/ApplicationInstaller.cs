@@ -1,9 +1,12 @@
 using Panel;
+using Sound;
 using UI;
+using UnityEngine;
 using Zenject;
 
 public class ApplicationInstaller : MonoInstaller<ApplicationInstaller>
 {
+    [SerializeField] private MainCamera mainCamera;
     public override void InstallBindings()
     {
         Container
@@ -20,6 +23,12 @@ public class ApplicationInstaller : MonoInstaller<ApplicationInstaller>
         
         Container
             .Bind<ButtonAnimationController>()
+            .AsSingle()
+            .NonLazy();
+        
+        Container
+            .Bind<AudioView>()
+            .FromComponentInNewPrefabResource("AudioView")
             .AsSingle()
             .NonLazy();
         

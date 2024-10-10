@@ -5,81 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c621046-1ac8-44fe-ad87-c9682cdec760" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GameController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameController/GameController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameController/GameController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Panel/PanelConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Panel/PanelConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Panel/PanelController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Panel/PanelController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Panel/PanelInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Panel/PanelInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Panel/PanelView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Panel/PanelView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Button.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/ButtonAnimationController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/ButtonAnimationController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/UIRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/UIRoot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/AudioView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sound/AudioView.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Web_Test_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Web_Test_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ambient 2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ambient 2.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/New Animation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/New Animation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/New Animator Controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/New Animator Controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/cute pack 5.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/cute pack 5.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/атлас.spriteatlasv2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/атлас.spriteatlasv2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Installer/ApplicationInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Installer/ApplicationInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainCamera/MainCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainCamera/MainCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainCamera/MainCamera.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainCamera/MainCamera.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainCamera/Resources/Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainCamera/Resources/Camera.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Button.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Button.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Button.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadSprites.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadSprites.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cute pack 3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cute pack 3.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/arial_black SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/arial_black SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/arial_black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/arial_black.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 10.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 2.jpg~" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 3.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 3.jpg~" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 4.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 4.jpg~" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 5.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 5.jpg~" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 6.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 6.jpg~" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 7.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 8.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/Image 9.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/атлас.spriteatlasv2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Новая папка/атлас.spriteatlasv2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound/cute pack 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sound/cute pack 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +28,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/54724222b7684530a2810ae1eac94ec7176000/79/d64a15ec/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Installer/ApplicationInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainCamera/MainCamera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -101,26 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\batir\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\batir\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\batir\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\batir\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\batir\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\batir\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Unity.exe" />
@@ -148,10 +85,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2828">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="2828" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -168,7 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1728313048638</updated>
       <workItem from="1728313051250" duration="1029000" />
-      <workItem from="1728396754635" duration="4251000" />
+      <workItem from="1728396754635" duration="5010000" />
+      <workItem from="1728532419178" duration="1229000" />
     </task>
     <servers />
   </component>
