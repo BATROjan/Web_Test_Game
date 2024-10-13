@@ -11,7 +11,7 @@ namespace GameController
         private readonly PanelController _panelController;
 
         private Button _startButton;
-        private PanelView _panelView;
+        private bool spawed;
         
         public GameController(
             ButtonAnimationController animationController,
@@ -28,10 +28,11 @@ namespace GameController
 
         private void CreatePanel()
         {
-            if (!_panelView)
+            if (!spawed)
             {
                _animationController.FadeAnimation(_startButton.Image);
-                _panelView = _panelController.Spawn();
+               _panelController.Spawn();
+               spawed = true;
             }
         }
     }

@@ -16,10 +16,6 @@ namespace Panel
                 .Bind<PanelController>()
                 .AsSingle()
                 .NonLazy(); 
-            
-            Container
-                .BindMemoryPool<PanelView, PanelView.Pool>()
-                .FromComponentInNewPrefabResource("Panel");
         }
     }
 }

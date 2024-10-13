@@ -1,21 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using UnityEditor.AddressableAssets.Settings;
+using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.UI;
+
 namespace Panel
 {
     public class PanelController
     {
-        private readonly PanelView.Pool _pool;
         private readonly PanelConfig _panelConfig;
+        public string addressableName = "Panel";
+
+        private GameObject _panel;
 
         public PanelController(
-            PanelView.Pool pool,
             PanelConfig panelConfig)
         {
-            _pool = pool;
             _panelConfig = panelConfig;
         }
 
-        public PanelView Spawn()
+        public async void Spawn()
         {
-            return _pool.Spawn(_panelConfig.PanelImageModels);
+            var panel = await LoadPanel<PanelView>(addressableName);
+            panel.Reinit(_panelConfig.PanelImageModels);
+        }
+
+        private async Task<T> LoadPanel<T>(string name)
+        {
+            var handle = Addressables.InstantiateAsync(name);
+            _panel = await handle.Task;
+            if (!_panel.TryGetComponent(out T Panel))
+            {
+                throw new NullReferenceException($"Object of type {typeof(T)} is null");
+            }
+
+            return Panel;
         }
     }
 }

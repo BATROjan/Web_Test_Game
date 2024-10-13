@@ -7,7 +7,7 @@ namespace Panel
     {
         [SerializeField] private SpriteRenderer[] _spriteRenderers;
 
-        private void Reinit(PanelImageModel[] panelImageModels)
+        public void Reinit(PanelImageModel[] panelImageModels)
         {
             for (int i = 0; i < _spriteRenderers.Length; i++)
             {

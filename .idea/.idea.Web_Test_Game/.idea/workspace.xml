@@ -5,17 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c621046-1ac8-44fe-ad87-c9682cdec760" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/AudioView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sound/AudioView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Images.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Images_BundledAssetGroupSchema.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Images_ContentUpdateGroupSchema.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Web_Test_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Web_Test_Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Installer/ApplicationInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Installer/ApplicationInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainCamera/MainCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainCamera/MainCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainCamera/MainCamera.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainCamera/MainCamera.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainCamera/Resources/Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainCamera/Resources/Camera.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/cute pack 3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/cute pack 3.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Images.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Images_BundledAssetGroupSchema.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Images_ContentUpdateGroupSchema.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameController/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameController/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Panel/PanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Panel/PanelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Panel/PanelInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Panel/PanelInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Panel/PanelView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Panel/PanelView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Panel/Resources/Panel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Panel/Resources/Panel.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +33,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/54724222b7684530a2810ae1eac94ec7176000/79/d64a15ec/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8ce0bd04a7a04b4b9395538239d3fdd846ac00/3b/b468450b/AsyncMethodBuilderCore.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Installer/ApplicationInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainCamera/MainCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -85,10 +93,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11768">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="11768" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -106,7 +114,11 @@
       <updated>1728313048638</updated>
       <workItem from="1728313051250" duration="1029000" />
       <workItem from="1728396754635" duration="5010000" />
-      <workItem from="1728532419178" duration="1229000" />
+      <workItem from="1728532419178" duration="1966000" />
+      <workItem from="1728801217486" duration="1324000" />
+      <workItem from="1728802647927" duration="3191000" />
+      <workItem from="1728830090129" duration="2997000" />
+      <workItem from="1728833524255" duration="338000" />
     </task>
     <servers />
   </component>
@@ -122,5 +134,63 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/GameController/GameController.cs</url>
+          <line>33</line>
+          <properties documentPath="D:\GitHub\Web_Test_Game\Assets\GameController\GameController.cs" containingFunctionPresentation="Method 'CreatePanel'">
+            <startOffsets>
+              <option value="955" />
+            </startOffsets>
+            <endOffsets>
+              <option value="979" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Panel/PanelController.cs</url>
+          <line>27</line>
+          <properties documentPath="D:\GitHub\Web_Test_Game\Assets\Panel\PanelController.cs" containingFunctionPresentation="Method 'Spawn'">
+            <startOffsets>
+              <option value="675" />
+            </startOffsets>
+            <endOffsets>
+              <option value="731" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Panel/PanelController.cs</url>
+          <line>39</line>
+          <properties documentPath="D:\GitHub\Web_Test_Game\Assets\Panel\PanelController.cs" containingFunctionPresentation="Method 'LoadPanel'">
+            <startOffsets>
+              <option value="997" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1046" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Panel/PanelController.cs</url>
+          <line>43</line>
+          <properties documentPath="D:\GitHub\Web_Test_Game\Assets\Panel\PanelController.cs" containingFunctionPresentation="Method 'LoadPanel'">
+            <startOffsets>
+              <option value="1171" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1243" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
